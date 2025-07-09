@@ -1,0 +1,29 @@
+
+---
+
+## ✅ `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+.DS_Store
+
+# Chroma vector DB
+ticket_db/
+
+# Local ticket logs
+tickets.jsonl
+
+# Streamlit temp
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# VSCode
+.vscode/
